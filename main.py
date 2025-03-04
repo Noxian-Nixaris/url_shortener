@@ -1,7 +1,5 @@
 from fastapi import Depends, FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
-from pydantic import Field
 from random import choices
 from sqlalchemy.orm import Session
 
